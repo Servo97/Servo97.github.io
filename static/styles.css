@@ -1,0 +1,56 @@
+/* body { 
+    padding-top: 65px; 
+} */
+@media (min-width: 981px) { body { padding-top: 60px; } } 
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0, auto;
+}
+.social-nav {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 10px auto;
+}
+.social-nav li {
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+.fa-github {
+	background: black;
+	color: white;
+}
+.fa { font-family: 'FontAwesome' !important; }
+.social-nav a i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    /* color:#6BC676; */
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    /* background:#fff; */
+    position: relative;
+    /* -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in; */
+}
+hr {
+    color: #dddddd; 
+    border-top: 2px solid;
+}
