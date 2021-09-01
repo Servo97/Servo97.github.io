@@ -54,3 +54,7 @@ hr {
     color: #dddddd; 
     border-top: 2px solid;
 }
+.sub-module{
+    color: #eeeeee !important; 
+    border-top: 1px solid;
+}

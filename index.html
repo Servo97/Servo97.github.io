@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Page Title</title>
+        <title>Henlo Fren!</title>
+        <link rel="shortcut icon" href="static/images/title_robot.png" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -32,7 +33,7 @@
                         <li><a href="#education">Education</a></li>
                         <li><a href="#publications">Publications</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="static/documents/Resume_Sarvesh.pdf" target="_blank">Resume</a></li>
+                        <li><a href="static/documents/Resume_Sarvesh_1_page.pdf" target="_blank">Resume</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     </ul>
@@ -46,17 +47,12 @@
             <div>
                 <img src="static/images/profile_pic.jpeg" alt="Profile Pic" style="width:15%; height:auto; margin-right: 30px; float: left;">
                 <div>
-                    <ul>
-                        <li>Data Scientist working at Hyperworks Imaging.</li>
-                        <li>B.E. in Electronics and Telecommunication, VESIT, Mumbai</li>
-                    </ul>
                     <p>
-                        <br>I create Computer Vision Solutions to solve Retail and R&D problems.  
+                        <br>Hi, my name is Sarvesh Patil! I'm an MS in Robotics student at Carnegie Mellon University.
+                        <br>I used to create Computer Vision solutions to solve Retail and R&D problems. 
                         <br>
-                        I graduated from <a class="outlink" target="_blank" href="https://ves.ac.in/vesit/">VESIT</a>
-                        with a Bachelor's in Electronics and Telecommunication Engineering. 
-                        I love all things Computer Vision, GANs, NLP and Robotics. Currently I am studying Transformers and Reinforcement Learning, whilst working on a group chat application
-                        using React Native and WebRTC.
+                        My Bachelor's was in Electronics and Telecommunication Engineering from <a class="outlink" target="_blank" href="https://ves.ac.in/vesit/">VESIT</a>.
+                        <br>My research interests lie in Computer Vision (GANs, object detection), Reinforcement Learning and Robotics.
                         <br>
                         <div style="display: inline;">
                             Social Media: 
@@ -73,6 +69,38 @@
                             </ul>
                         </div>
                     </p>
+                    <ul>
+                        <li>Data Scientist working at Hyperworks Imaging.</li>
+                        <li>B.E. in Electronics and Telecommunication, VESIT, Mumbai</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h2 id="education">Education</h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="img-responsive img-center" src="static/images/cmu.png" alt="CMU" >
+                </div>
+                <div class="col-sm-6">
+                    <h3>M.S. in Robotics</h3>
+                    <h4>Carnegie Mellon University, Pittsburgh</h4>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-center">August 2021 - August 2023</h4>
+                </div>
+            </div>
+            <hr class="sub-module">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="img-responsive img-center" src="static/images/vesit.jpg" alt="VESIT" >
+                </div>
+                <div class="col-sm-6">
+                    <h3>B.E. in Electronics and Telecommunication</h3>
+                    <h4>VES Institute of Technology, Mumbai<br></h4>
+                </div>
+                <div class="col-sm-3">
+                    <h4 class="text-center" style="margin: auto;">July 2015 - June 2019</h4>
                 </div>
             </div>
             <br>
@@ -80,11 +108,9 @@
             <h2 id="experience">Experience</h2>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="img-responsive img-center" src="static/images/hwi.png" alt="HWI" style="width:100px; height:auto; margin: auto;">
-                    <br>
-                    <p class="text-center">August 2019 - Present</p>
+                    <img class="img-responsive" src="static/images/hwi.png" alt="HWI" style="width:12em; height:auto; margin: auto;">
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <h3>Data Scientist, HyperWorks Imaging, Bangalore</h3>
                     <ul>
                         <li>Multi-Modal Super Resolution for Dense Microscopic Particle Size Estimation</li>
@@ -93,19 +119,22 @@
                         <li>Group Chat App for niche use-cases using React Native and WebRTC protocol</li>
                     </ul>
                 </div>
+                <div class="col-sm-3">
+                    <h4 class="text-center">August 2019 - February 2021</h4>
+                </div>
             </div>
             <br>
             <hr>
             <h2 id="publications">Publications</h2>
             <div class="row">
                 <div class="col-sm-3">
-                    <img class="img-responsive img-center" src="static/images/super_resolution/18-SEM_cv2.jpg" alt="Paper" style="width:500px; height:auto; margin: auto;">
+                    <img class="img-responsive" src="static/images/super_resolution/18-SEM_cv2.jpg" alt="Paper" style="width:500px; height:auto; margin: auto;">
                     <br>
                     <p class="text-center">August 2019 - May 2020</p>
                 </div>
                 <div class="col-sm-9">
                     <h3>Multi-Modal Super Resolution for Dense Microscopic Particle Size Estimation</h3>
-                    <h4>Submitted to TPAMI, under review. Arxiv link: <a>https://arxiv.org/abs/2010.09594</a></h4>
+                    <h4>Submitted to TPAMI, under review. Arxiv link: <a class="outlink" target="_blank" href="https://arxiv.org/abs/2010.09594">https://arxiv.org/abs/2010.09594</a></h4>
                     <h5>Particle Size Analysis (PSA) is an important process carried out in a number of 
                         industries, which can significantly influence the properties of the final product. 
                         A ubiquitous instrument for this purpose is the Optical Microscope (OM). However, OMs 
@@ -114,13 +143,14 @@
                         two Conditional Generative Adversarial Networks (cGANs) that Super Resolve OM images 
                         to look like Scanning Electron Microscope (SEM) images. We further demonstrate the use 
                         of a custom object detection module that can perform efficient PSA of the super-resolved
-                         particles on both, densely and sparsely packed images. The PSA results obtained from 
-                         the super-resolved images have been benchmarked against human annotators, and results 
-                         obtained from the corresponding SEM images. The proposed models show a generalizable 
-                         way of multi-modal image translation and super-resolution for accurate particle size 
-                         estimation.</h5>
+                        particles on both, densely and sparsely packed images. The PSA results obtained from 
+                        the super-resolved images have been benchmarked against human annotators, and results 
+                        obtained from the corresponding SEM images. The proposed models show a generalizable 
+                        way of multi-modal image translation and super-resolution for accurate particle size 
+                        estimation.</h5>
                 </div>
             </div>
+            <hr class="sub-module">
             <div class="row">
                 <div class="col-sm-3">
                     <img class="img-responsive img-center" src="static/images/quaddy/quaddy.png" alt="Paper" style="width:500px; height:auto; margin: auto;">
@@ -129,39 +159,8 @@
                 </div>
                 <div class="col-sm-9">
                     <h3>Use of UAVs for mining applications</h3>
-                    <h4>International Journal of Advance Research, Ideas and Innovations in Technology (IJARIIT)<br><a>https://www.ijariit.com/manuscripts/v4i2/V4I2-2159.pdf</a></h4>
-                    <h5>Unmanned Aerial Vehicles (UAVs) have been gaining a lot of impetus in the recent times. Drones are constantly being made
-                        available for a myriad of day-to-day applications like food delivery, surveillance, farming, etc. One of the most overshadowed
-                        regions in the list of applications remains to mine. Mining is a dangerous activity and more often than not, there are certain
-                        unknown hazards to it that are too dangerous for humans to be experimenting with all by themselves. Hence it makes sense to
-                        use a UAV in the form of a First-Person View (FPV) drone.<br><br>
-                        For the development of a UAV, there are thousands of different permutations that can be used. After a detailed analysis of
-                        various of them ranging from a simple tri-copter to an octocopter, a quadcopter design was unanimously selected as it provides
-                        elegant support in the form of control, structure, reliability, cost, size, etc. Most important of them being size and structure.
-                        Mines can be constricting places and a wide frame may become very difficult to control inside such enclosures.<br><br>
-                        This project has been implemented on a much smaller scale than an actual prototype, primarily because of an ambitious
-                        development schedule coupled with a very limited budget. These constraints have forced a compromise on the quality of the
-                        components used but have not tampered with the real application objectives that the drone has to suffice. The drone at present
-                        is being controlled by a remote-control transmitter, receiver couple but we are working on creating our own GUI which will
-                        provide a direct control over all the systems from a remote laptop or android device.
-                        </h5>
-                </div>
-            </div>
-            <br>
-            <hr>
-            <h2 id="education">Education</h2>
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="img-responsive img-center" src="static/images/vesit.png" alt="VESIT" style="width:100px; height:auto; margin: 0 auto;">
-                    <br>
-                    <p class="text-center">July 2015 - June 2019</p>
-                </div>
-                <div class="col-sm-9">
-                    <h3>Bachelor of Engineering, Electronics and Telecommunication</h3>
-                    <h4>VES Institute of Technology, Mumbai</h4>
-                    <ul>
-                        <li>CGPA: 8.89/10</li>
-                    </ul>
+                    <h4>International Journal of Advance Research, Ideas and Innovations in Technology (IJARIIT)<br><a class="outlink" target="_blank" href="https://www.ijariit.com/manuscripts/v4i2/V4I2-2159.pdf">https://www.ijariit.com/manuscripts/v4i2/V4I2-2159.pdf</a></h4>
+                    <h5>This paper encompasses an academic project using a quadcopter for use in areas that may be hazardous for humans to physically go to.</h5>
                 </div>
             </div>
             <br>
@@ -196,6 +195,7 @@
                     </ul> 
                 </div>
             </div>
+            <hr class="sub-module">
             <div class="row">
                 <div class="col-sm-3">
                     <img class="img-responsive img-center" src="static/images/beer_can/00040087_0_q641.png" alt="VESIT" style="width:500px; height:auto; margin: 0 auto;">
@@ -207,11 +207,11 @@
                         ignoring the others. Dataset had challenges like reflection of light from the ambient background
                         on the glass-doors, due to which, a StyleGAN2 model was trained on web-scraped images with data
                         manipulation. This made the GAN generate images that replicate the real world scenarios coarsely.
-                        This made our classification model using ResNet101 architecture more robust.
+                        This made the classification model using ResNet101 architecture more robust.
                     </p>
                 </div>
             </div>
-            <br>
+            <hr class="sub-module">
             <div class="row">
                 <div class="col-sm-3">
                     <img class="img-responsive img-center" src="static/images/super_resolution/18-SEM_cv2.jpg" alt="VESIT" style="width:500px; height:auto; margin: 0 auto;">
@@ -224,12 +224,31 @@
                         generated by a combination of AASNA-Pix2Pix and an Improved ESRGAN using Spectral Normalization. 
                         Further, a custom object detection model was created for the super resolved images: Super
                         Resolution Particle Sizing Algorithm. The detection model gives output feature maps as 4D 
-                        vectors, each pixel giving a map of <i>(p, x, y, r)</i> to detect the circle of a particle and its radius.
-                        We wrote a paper on this project which is currently awaiting approval by the legal teams.
+                        vectors, each pixel giving a map of <i>(p, x, y, r)</i> to detect the circle of a particle and its radius. 
+                        The final object detection resulted in 0.989 D50 and 0.982 CV values compared to expert human annotators
                     </p>
                 </div>
             </div>
-            <br>
+            <hr class="sub-module">
+            <div class="row">
+                <!-- <div class="col-sm-3">
+                    <img class="img-responsive img-center" src="static/images/beer_can/00040087_0_q641.png" alt="VESIT" style="width:500px; height:auto; margin: 0 auto;">
+                </div> -->
+                <div class="col-sm-12">
+                    <h3>Super Annotation Tool with MLOps Backend</h3>
+                    <p>
+                        Created an annotation tool for researchers to enable high-quality object detection of particles with very
+                        little, training data. Implemented an MLOps based backend using MLFlow and Nginx for the Web-App to make tracking
+                        and merging of experiments easier. Used the particle sizing algorithms (PSA) to mediocrely detect particles with extremely
+                        different distribution as compared to training images. A few of these detections could be fine-tuned by human expert annotators.
+                        Then the algorithm would retrain on a select few images and update weights according to the new data. Used the MLFlow library to 
+                        help users observe training accuracy and track the model performance improvements over different experiments. The admin dashboard
+                        presented information about time taken by each human annotator which reduced drastically with the use of PSA algorithms, thus 
+                        saving the company significant costs.
+                    </p>
+                </div>
+            </div>
+            <hr class="sub-module">
             <div class="row">
                 <div class="col-sm-3">
                     <img class="img-responsive img-center" src="static/images/wheat_detection/53f253011.jpg" alt="VESIT" style="width:500px; height:auto; margin: 0 auto;">
@@ -243,7 +262,7 @@
                     </p>
                 </div>
             </div>
-            <br>
+            <hr class="sub-module">
             <div class="row">
                 <div class="col-sm-3">
                     <img class="img-responsive img-center" src="static/images/autoML/automl.png" alt="VESIT" style="width:500px; height:auto; margin: 0 auto;">
