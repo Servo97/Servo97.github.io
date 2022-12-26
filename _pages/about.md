@@ -18,7 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, welcome to my half quirky - half stereotypical academic website! Here are 2 truths and 1 lie (in no particular order) about me:
+1. I love researching the use of soft robots for manipulation 
+2. I absolutely hate Pittsburgh
+3. I love cooking food and road trips to places of natural beauty
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
