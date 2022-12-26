@@ -23,6 +23,6 @@ Hello, welcome to my half quirky - half stereotypical academic website! Here are
 2. I absolutely hate Pittsburgh
 3. I love cooking food and road trips to places of natural beauty
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to joining CMU, I used to work in HyperWorks Imaging, a small startup in Bangalore. 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
