@@ -19,10 +19,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hello, welcome to my half quirky - half stereotypical academic website! Here are 2 truths and 1 lie (in no particular order) about me:
-1. I love researching the use of soft robots for manipulation 
-2. I absolutely hate Pittsburgh
+1. I love researching the use of soft robots for manipulation and human-robot interaction
+2. I absolutely detest snow
 3. I love cooking food and road trips to places of natural beauty
 
-Prior to joining CMU, I used to work in HyperWorks Imaging, a small startup in Bangalore. 
+Before joining CMU I used to work in HyperWorks Imaging, a small startup in Bangalore, where I worked on making conditional GANs useful to material scientists and people from ad agencies.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently I'm interested in assistive healthcare robotics and applying causal learning to soft robots for manipulation.

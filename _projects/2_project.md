@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Delta Arrays
+description: an array of 64 soft delta robots in an 8x8 grid formation
 img: assets/img/3.jpg
 importance: 2
 category: work
