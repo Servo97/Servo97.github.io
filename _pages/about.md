@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/'>MS in Robotics</a> @The Robotics Institute, CMU
 

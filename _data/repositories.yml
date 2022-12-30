@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - servo97
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  -  iamlab-cmu/delta_array
+  -  ZoomLabCMU/DeltaZ
+  -  ZoomLabCMU/Soft-Delta-Robots 
