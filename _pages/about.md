@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/'>MS in Robotics</a> @The Robotics Institute, CMU
+subtitle: <a href='https://www.ri.cmu.edu/education/academic-programs/doctoral-robotics-program/'>PhD in Robotics</a> @The Robotics Institute, CMU
 
 profile:
   align: right
@@ -18,11 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, welcome to my half quirky - half stereotypical academic website! Here are 2 truths and 1 lie (in no particular order) about me:
-1. I love researching the use of soft robots for manipulation and human-robot interaction
-2. I absolutely detest snow
-3. I love cooking food and road trips to places of natural beauty
+Hello, welcome to my half quirky - half stereotypical academic website! I'm pursuing a PhD in Robotics co-advised by Prof. Oliver Kroemer and Prof. Zeynep Temel. Prior to that, I was an MS in Robotics student at CMU and developed an array of 64 soft delta robots in an 8x8 grid to push the limits of dexterous manipulation with non-anthropomorphic soft robots. As a PhD student, now I'm trying to develop a framework that can assimilate techiques from Policy Gradients, Causal Discovery, and Cooperative Game Theory for sample efficient representation and robot learning. 
 
-Before joining CMU I used to work in HyperWorks Imaging, a small startup in Bangalore, where I worked on making conditional GANs useful to material scientists and people from ad agencies.
+Fundamentally, I want to help democratize robotics. My hardware is an attempt to do 2 things:
+1. Demonstrate how soft robots enable a wide range of manipulation tasks while drastically reducing costs of manufacturing and maintenance. 
+2. Create problems hard enough that throwing large models at them is impractical. This drives a need for sample-efficient robot learning algorithms that are well structured and interpretable. 
 
-Currently I'm interested in assistive healthcare robotics and applying causal learning to soft robots for manipulation.
+Prior to joining CMU I used to work in HyperWorks Imaging, a small startup in Bangalore, where I worked on making conditional GANs useful to material scientists developing Carbon-based efficient batteries.
+
+Please feel free to connect with me if you're interested in either causal discovery, multi-agent RL, or soft robots for manipulation!
