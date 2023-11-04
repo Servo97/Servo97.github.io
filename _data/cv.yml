@@ -3,17 +3,15 @@
   contents:
     - name: Full Name
       value: Sarvesh Bipin Patil
-    - name: Date of Birth
-      value: 8th February 1997
     - name: Languages
-      value: English, Marathi, Hindi, Mandarin
+      value: English, Marathi, Hindi
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Robotics
       institution: Carnegie Mellon University, Pittsburgh, PA
-      year: Hopefully 2028?
+      year: Present
       description:
         - title: Courses
           contents:
@@ -34,16 +32,15 @@
     - title: BE in Electronics and Telecommunication
       institution: VES Institute of Technology
       year: 2019
-      description:
-        - 'GPA: 8.89/10'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Researcher
+    - title: Graduate Student Researcher
       institution: The Robotics Institute, CMU, Pittsburgh, PA
-      year: 2021 - 2023
+      year: 2021 - present
       description:
+        - <a href="https://servo97.github.io/projects/HiDex">MCTS-based algorithm to generate contact-rich manipulation plans using RRT withing seconds</a>
         - <a href="https://servo97.github.io/projects/tactile_sensor">Bio-Inspired Tactile Sensor for Soft Robotic Manipulation</a>
         - <a href="https://servo97.github.io/projects/delta_arrays">Linear Delta Arrays for Distributed Dexterous Compliant Manipulation</a>
         - '<a href="https://servo97.github.io/projects/deltaZ">DeltaZ: A low-cost delta robot for research and education</a>'
@@ -52,13 +49,17 @@
       institution: HyperWorks Imaging, Bangalore, India
       year: 2019 - 2021
       description:
+        - <a href="https://servo97.github.io/projects/voice_app">A much better version of Clubhouse, but no networking Bay Area connections :(</a>
+        - <a href="https://servo97.github.io/projects/stylegan_project">Using StyleGAN for Data Augmentation to improve object detection accuracy in low-data settings</a>
+        - <a href="https://servo97.github.io/projects/auto_ml">A no-code customizable AutoML tool for material scientists</a>
+        - '<a href="https://servo97.github.io/projects/super_resolution">Multi-modal super resolution and particle size analysis</a>'
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://iamlab-cmu.github.io/delta-arrays/">linear delta robots</a>
       year: 2022
-      description: Everything you need to fabricate, assemble, and control linear delta robots
+      description: Everything you need to fabricate, assemble, and control linear delta robot arrays
 
     - title: <a href="https://github.com/alvaresc/DeltaZ/wiki">DeltaZ</a>
       year: 2021
@@ -69,25 +70,26 @@
   contents:
     - title: Robotic Manipulation
       items: 
-        - Learning causal relationships between robots and their environments for sample-efficient lifelong learning of manipulation skills.
-        - Smooth low-level control for jerk-free motions in robot manipulators
-    - title: Soft Robotics
+        - Sample efficient learning for dexterous manipulation and transfer across objects with varying geometry and physical properties
+        - Object-centric transformer models for few-shot transfer of affordances from demonstrations across varying robot morphologies (parallel jaw, anthropomorphic hands, non-anthropomorphic soft robots, etc)
+    - title: Soft Robotic Sensors and End-Effectors
       items:
         - Leveraging compliant low-cost materials to augment traditional robots for a wide range of novel manipulation tasks.
-        - Mapping causal relationships between soft material properties and task completion rates.
-    - title: Human Robot Interaction
-      items:
-        - Implementing a combination of the above two frameworks to learn human preferences in a sample-efficient manner
-        - Quantify impact of softness in robots on human trust and comfort
+        - Developing low-cost sensors with varying material propoerties and studying their impact on different manipulation tasks
+    # - title: Human Robot Interaction
+    #   items:
+    #     - Implementing a combination of the above two frameworks to learn human preferences in a sample-efficient manner
+    #     - Using vision language models for understanding human intent and preferences in assistive manipulation settings
 
 - title: Other Interests
   type: nested_list
   contents:
     - title: <u>Hobbies:</u> 
       items:
-       - Roadtrips, Hiking, Reading, Video Games, Astronomy
+       - Roadtrips, Hiking, Reading, Sketching, Painting, Video Games, Astronomy
     - title: <u>Service:</u> 
       items:
-        - MSR representative for RoboOrg, the student organization for the Robotics Institute at CMU.
-        - Lab Service for installation and manitenance of lab equipment
-        - Food Genie - Keep hungry grad students happy by refilling snack cabinets, order free food for lab meetings, post seminar receptions, and "townhalls"
+        - An active member of RoboOrg, the student organization within the Robotics Institute at CMU. Liason between students and the department to convey issues and proactively work towards solutions. Responsible for expanding the core course curriculum requirements within RI.
+        - Participate in outreach events to promote Robotics among middle school and high school students in the Western PA area. 
+        - Volunteer for the AI Mentoring Program in the School of Computer Science at CMU. 
+        - Actively help prospective grad students with their applications for graduate studies in Robotics and AI.

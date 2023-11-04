@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [MSR, HyperWorks Imaging]
+display_categories: [PhD, MSR, HyperWorks Imaging]
 horizontal: false
 ---
 
